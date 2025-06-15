@@ -22,7 +22,7 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run: surge --project . --domain TU_NOMBRE_DE_DOMINO.surge.sh
+      run: surge --project . --domain CloudTechLR1.surge.sh
       env:
         SURGE_LOGIN: ${{ secrets.SURGE_EMAIL }}
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
